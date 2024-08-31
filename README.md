@@ -7,7 +7,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```   
-   git clone https://github.com/EmmanuelVJacob/trello.git
+   git clone https://github.com/EmmanuelVJacob/employeeWebsite.git
    ```
 
    
@@ -46,9 +46,7 @@ To run the project locally, follow these steps:
     npm start
     ```
 
-### Environment variables (Frontend)
-
-   Rename .env.example file to .env for all the environment variables required for the Frontend.
+.
 
    
 
@@ -78,15 +76,4 @@ To run the project locally, follow these steps:
 
    Rename .env.example file to .env for all the environment variables required for the Backend.
 
-
-## Get Task(Postman)
-   URL: 
-   ``` 
-   http://localhost:3001/api/task/getAllTask 
-   ```
-   Method: GET
-   Headers:
-
-    Key: authorization
-    Value:<your-access-token> //Give accessToken that get's from response after Successfull Login.
 
